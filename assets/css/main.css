@@ -190,11 +190,12 @@ input, select, textarea {
 				}
 		}
 /* Row */
-	.row {
-		display: flex;
-  		align-items: center;
- 		justify-content: center;
-	}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-items: stretch;
+}
 		.row > * {
 			box-sizing: border-box;
 		}
