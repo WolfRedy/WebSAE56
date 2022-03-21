@@ -2610,3 +2610,10 @@ input, select, textarea {
 			height: 34px;
 		}
 }
+img.logo {
+	width: 2%;
+}
+#logo {
+	display: flex;
+	align-items: center;
+}
